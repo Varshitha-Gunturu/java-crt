@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {     
+        Scanner scanner = new Scanner(System.in);
+        float principal = scanner.nextFloat();
+        float rate = scanner.nextFloat();
+        float time = scanner.nextFloat();
+        float interest = (principal * rate * time) / 100;
+        float amount = principal + interest;
+        float discount = interest * 2 / 100;
+        float finalAmount = amount - discount;
+        System.out.printf("%.2f%n", interest);
+        System.out.printf("%.2f%n", amount);
+        System.out.printf("%.2f%n", discount);
+        System.out.printf("%.2f%n", finalAmount);
+
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
