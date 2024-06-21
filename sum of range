@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int min,max;
+            min=s.nextInt();
+            max=s.nextInt();
+        int sum=0;
+
+        for (int i = min; i <= max; i++) {
+            sum += i;
+        }
+
+        System.out.println(sum);
+
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
