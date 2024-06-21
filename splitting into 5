@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+                Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int t = scanner.nextInt();
+        int r1 = n / t;
+        int r2 = n % t;
+        System.out.printf("The number of students in each team is %d and left out is %d%n", r1, r2);
+
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
