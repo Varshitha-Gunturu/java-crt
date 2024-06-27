@@ -1,0 +1,63 @@
+		MERGE SORT :
+You are given 2 integer arrays arr1 and arr2 sorted in non-decreasing order , 
+and 2 integers m & n , representing the no.of elements in arr1 & arr2 respectively 
+Merge arr1 & arr2 into a single array sorted in non decreasing order
+EXAMPLE :
+I/p : 
+6
+0 1 2 3 4 7
+3 
+2 5  6
+O/p :
+0 1 2 2 3 4 5 6 7
+import java.util.*;
+class Test{
+   Public static void main (string args[  ])
+  {
+	Scanner s=new scanner(System.in);
+	int n=s.nextInt( );
+	int a[ ]=new int [m];
+	for (i=0; i<m; i++)
+	{
+		a[i]=s.nextInt();
+	}
+	int n=s.nextInt( );
+	int a[ ]=new int [n];
+	for (i=0; i<n; i++)
+	{
+		b[i]=s.nextInt();
+	}
+	int c[]=new int[m+n];
+	int i=0,j=0,k=0;
+	while(i<m && j<n)
+	{
+		if(a[i]<b[j])
+		{
+			c[k]=a[i];
+			i++;
+			k++;
+		}
+		else
+		{
+			c[k]=b[j];
+			j++;
+			k++;
+		}
+	}
+	while(i<m)
+	{
+		c[k]=a[i];
+		k++;
+		i++;
+	}
+	while(j<n)
+	{
+		c[k]=b[j];
+		k++;
+		j++;
+	}
+	for(i=0; i<k; i++)
+		system.out.println(c[i]+" ");
+	}
+}
+
