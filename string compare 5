@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        String Str1=s.next();
+        String Str2=s.next();
+        if(Str1.equals(Str2))
+        System.out.println("Strings are same");
+        else
+            System.out.println("Strings are not same");
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
