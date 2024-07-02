@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        String s1=s.next();
+        char[] s2 = s1.toCharArray();
+        Arrays.sort(s2);
+        String sortedString = new String(s2);
+        System.out.println(sortedString);
+    }
+}
+
