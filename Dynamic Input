@@ -1,0 +1,21 @@
+import java, util-scannell);
+
+Class Addition
+
+{
+
+Public static void main (string[] args)
+
+Scanner sc = new Scanner (System.in);
+
+System.out.println("Enter a value");
+
+double a=sc.next Doublе();
+
+System Out printen ("Enter b value");
+
+double b=sc.next Double();
+
+System.out.printen ("The addition of two values "(a+b));
+}
+}
