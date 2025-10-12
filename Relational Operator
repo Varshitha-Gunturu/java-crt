@@ -1,0 +1,26 @@
+
+Class Relational Operator
+
+public static void main(String[] args)
+
+{
+
+{
+
+int a= 10;
+
+int b=20:
+
+System.out.printen (a==b);// falle
+
+System Out. printen (a! = b); //true
+
+System.out.println(a>b); // falle
+
+System.out.printen (a<b); // true
+
+System.out.println (a>=b); // false
+
+System. Out, print In (a<=b);//true
+}
+}
