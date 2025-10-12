@@ -1,0 +1,33 @@
+import java.util. scanners
+
+Class program2
+
+{
+
+public static void main(String[] args)
+
+{
+
+Scanner se = new Scanner(System.in);
+
+System.out. Println("Enter product name: ");
+
+string name = sc.next()
+
+System.out.println("Enter product price:");
+
+double price = sc. next Double();
+
+System, Out, Printeo ("Enter product ratings:");
+
+double ratings = sc. next Double();
+
+System.out.println("---------------------");
+
+System Out Println("Product name: "+tname);
+System.out.println("Product Price : "+price);
+System.out.println("product rating:" +ratings);
+
+}
+
+}
