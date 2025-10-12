@@ -1,0 +1,25 @@
+import java.util.Scanner();
+
+class program
+{
+
+Public static void main (string [ ]args)
+{
+
+Scanner sc = new Scanner(System.in);
+
+System.out.println("Enter a value: ");
+
+int a = sc.next Int();
+
+System.out.println("Enter b value: ");
+
+int b=sc.nextInt();
+
+System.out.println("Enter C value: ");
+
+int c= sc.next Int();
+
+System.out.println ("The greatest of 3 Numbers: "+ (a>b && a>c)? a:b: (b>c) b:c);
+}
+}
